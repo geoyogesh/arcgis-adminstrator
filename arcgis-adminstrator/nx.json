@@ -1,0 +1,27 @@
+{
+  "npmScope": "arcgis-adminstrator",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "arcgis-adminstrator-arcgis-adminstrator": {
+      "tags": [
+        "ArcGIS Adminstrator",
+        "Portal For ArcGIS",
+        "ArcGIS Online"
+      ]
+    },
+    "arcgis-adminstrator-arcgis-adminstrator-e2e": {
+      "tags": []
+    },
+    "agol-api": {
+      "tags": [
+        "AGOL Library"
+      ]
+    }
+  }
+}
